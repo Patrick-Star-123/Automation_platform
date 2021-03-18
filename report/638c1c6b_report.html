@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.table{
+			border-left: 1px solid #333;
+			border-top: none;
+			margin: 0 80px;
+			
+			
+		}
+		.title{
+			text-align: center;
+			padding: 10px 0;
+			border: 1px solid #333;
+			border-bottom: none;
+			margin: 8px 80px 0 80px;
+			background-color:skyblue;
+		}
+		.tr{
+			width: calc(100% - 8px);
+			display: flex;
+		}
+		.tr>p{
+			flex: 0 0 12.5%;
+			display: block;
+			height: 40px;
+			border-right: 1px solid #333;
+			border-bottom: 1px solid #333;
+			background:seashell;
+			text-align: center;
+			line-height: 40px;
+		}
+		.tr1{
+			width: calc(100% - 8px);
+			display: flex;
+		}
+		.tr1>p{
+			flex: 0 0 12.5%;
+			display: block;
+			height: 40px;
+			border-right: 1px solid #333;
+			border-bottom: 1px solid #333;
+			border-top:1px solid #333;
+			background:peachpuff;
+			text-align: center;
+			line-height: 40px;
+			font-weight: 600;
+		}
+		.tr2{
+			width: calc(100% - 8px);
+			display: flex;
+		}
+		.tr2>p{
+			flex: 0 0 12.5%;
+			display: block;
+			height: 40px;
+			border-right: 1px solid #333;
+			border-bottom: 1px solid #333;
+			background:cornsilk;
+			text-align: center;
+			line-height: 40px;
+		}
+		.p6{			
+			background:tomato!important;			
+		}
+		.p5{
+			background:greenyellow!important;			
+		}
+		
+	</style>
+	<body>
+		<div class="title">Mobile Erp测试报告</div>
+		<div class="table">
+		<div class="tr1">
+				<p>版本号：v-3.5</span>
+				<p>用例数：47</span>
+				<p>通过数：43</span>
+				<p>失败数：4</span>
+				<p>失败率：8.5%</span>
+				<p>测试机型：638c1c6b</span>
+				<p>测试时间：03/17/21</span>
+				<p>测试用时：88.0分钟</span>
+		</div>
+		<div class="tr2">
+				<p>用例编号</span>
+				<p>用例模块</span>
+				<p>用例标题</span>
+				<p>异常步骤</span>
+				<p>预计结果</span>
+				<p>实际结果</span>
+				<p>地址类型</span>
+				<p>失败截图</span>
+		</div>
+		
+                                    <div class="tr">
+				                        <p>test1</span>
+				                        <p>登陆</span>
+				                        <p>登录测试</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>path</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test2</span>
+				                        <p>新增订单</span>
+				                        <p>新增自驾订单</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test3</span>
+				                        <p>新增订单</span>
+				                        <p>新增包车订单</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test4</span>
+				                        <p>新增订单</span>
+				                        <p>新增接机订单</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test5</span>
+				                        <p>新增订单</span>
+				                        <p>新增送站订单</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test6</span>
+				                        <p>订单列表</span>
+				                        <p>订单详情查看</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test7</span>
+				                        <p>订单列表</span>
+				                        <p>修改订单流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test8</span>
+				                        <p>订单列表</span>
+				                        <p>派车派司机流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test9</span>
+				                        <p>订单列表</span>
+				                        <p>取消订单流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test10</span>
+				                        <p>订单列表</span>
+				                        <p>微信行程分享功能</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test11</span>
+				                        <p>订单列表</span>
+				                        <p>订车人短信行程分享功能</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test12</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表交车流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test13</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表风控查询流程（黑名单和平台联合预警）</span>
+				                        <p>断言查询结果</span>
+				                        <p>通过</span>
+				                        <p class="p6">失败</span>
+				                        <p>text</span>
+				                        <p><a href=D:\work\Automation_platform\UI\Automated_test_platform\report\Error_screenshot\638c1c6b\shenjia_screenshot\test13_retry.png>查看图片</a></span>
+		                            </div>
+                                                   
+                                    <div class="tr">
+				                        <p>test14</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表违章查询</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test15</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表订单续租</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test16</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表指定还车司机</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test17</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表电子合同流程</span>
+				                        <p>选择模板</span>
+				                        <p>通过</span>
+				                        <p class="p6">失败</span>
+				                        <p>text</span>
+				                        <p><a href=D:\work\Automation_platform\UI\Automated_test_platform\report\Error_screenshot\638c1c6b\shenjia_screenshot\test17_retry.png>查看图片</a></span>
+		                            </div>
+                                                   
+                                    <div class="tr">
+				                        <p>test18</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表修改目的地</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test19</span>
+				                        <p>订单列表</span>
+				                        <p>订单列表收车流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test20</span>
+				                        <p>快捷交车</span>
+				                        <p>快捷交车上传照片流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test21</span>
+				                        <p>快捷收车</span>
+				                        <p>快捷收车上传照片流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test22</span>
+				                        <p>上报备案</span>
+				                        <p>上报备案录入订单流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test23</span>
+				                        <p>上报备案</span>
+				                        <p>上报备案未上报订单列表上报流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test24</span>
+				                        <p>风控查询</span>
+				                        <p>风控查询所有维度流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test25</span>
+				                        <p>风控查询</span>
+				                        <p>风控查询记录录单流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test26</span>
+				                        <p>违章查询</span>
+				                        <p>新增车辆并查询流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test27</span>
+				                        <p>违章查询</span>
+				                        <p>订阅违章推送流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test28</span>
+				                        <p>违章查询</span>
+				                        <p>违章查询深豆充值流程</span>
+				                        <p>忽略安全提示</span>
+				                        <p>通过</span>
+				                        <p class="p6">失败</span>
+				                        <p>text</span>
+				                        <p><a href=D:\work\Automation_platform\UI\Automated_test_platform\report\Error_screenshot\638c1c6b\shenjia_screenshot\test28_retry.png>查看图片</a></span>
+		                            </div>
+                                                   
+                                    <div class="tr">
+				                        <p>test29</span>
+				                        <p>违章查询</span>
+				                        <p>城市列表查看流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test30</span>
+				                        <p>黑名单</span>
+				                        <p>黑名单查询流程</span>
+				                        <p>关闭vConsole按钮</span>
+				                        <p>通过</span>
+				                        <p class="p6">失败</span>
+				                        <p>path</span>
+				                        <p><a href=D:\work\Automation_platform\UI\Automated_test_platform\report\Error_screenshot\638c1c6b\shenjia_screenshot\test30_retry.png>查看图片</a></span>
+		                            </div>
+                                                   
+                                    <div class="tr">
+				                        <p>test31</span>
+				                        <p>黑名单</span>
+				                        <p>举报骗租人流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test32</span>
+				                        <p>电子合同</span>
+				                        <p>电子合同撤回、发送好友流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>keyevent</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test33</span>
+				                        <p>电子合同</span>
+				                        <p>电子合同订单发起合同流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>keyevent</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test34</span>
+				                        <p>电子合同</span>
+				                        <p>合同修改流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test35</span>
+				                        <p>员工权限</span>
+				                        <p>添加部门、员工、删除员工流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test36</span>
+				                        <p>员工权限</span>
+				                        <p>修改岗位流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test37</span>
+				                        <p>车辆管理</span>
+				                        <p>标签筛选、车辆信息查看流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test38</span>
+				                        <p>车辆管理</span>
+				                        <p>车辆类型筛选流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test39</span>
+				                        <p>车辆管理</span>
+				                        <p>车辆状态筛选流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test40</span>
+				                        <p>车辆管理</span>
+				                        <p>车辆门店筛选流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test41</span>
+				                        <p>车辆管理</span>
+				                        <p>新增车辆流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test42</span>
+				                        <p>车辆管理</span>
+				                        <p>修改车辆信息流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test43</span>
+				                        <p>车辆管理</span>
+				                        <p>车辆改绑门店流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test44</span>
+				                        <p>车辆管理</span>
+				                        <p>车辆冻结、解冻流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test45</span>
+				                        <p>车辆管理</span>
+				                        <p>车辆注销流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test46</span>
+				                        <p>签约客户</span>
+				                        <p>新增签约单位流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+                                    <div class="tr">
+				                        <p>test47</span>
+				                        <p>数据统计</span>
+				                        <p>统计维度页面跳转流程</span>
+				                        <p>无</span>
+				                        <p>通过</span>
+				                        <p class="p5">通过</span>
+				                        <p>text</span>
+				                        <p>无</span>
+		                            </div>
+                                   
+		</div>
+	</body>
+</html>
