@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.table{
+			border-left: 1px solid #333;
+			border-top: none;
+			margin: 0 80px;
+			
+			
+		}
+		.title{
+			text-align: center;
+			padding: 10px 0;
+			border: 1px solid #333;
+			border-bottom: none;
+			margin: 8px 80px 0 80px;
+			background-color:skyblue;
+		}
+		.tr{
+			width: calc(100% - 8px);
+			display: flex;
+		}
+		.tr>p{
+			flex: 0 0 12.5%;
+			display: block;
+			height: 40px;
+			border-right: 1px solid #333;
+			border-bottom: 1px solid #333;
+			background:seashell;
+			text-align: center;
+			line-height: 40px;
+		}
+		.tr1{
+			width: calc(100% - 8px);
+			display: flex;
+		}
+		.tr1>p{
+			flex: 0 0 12.5%;
+			display: block;
+			height: 40px;
+			border-right: 1px solid #333;
+			border-bottom: 1px solid #333;
+			border-top:1px solid #333;
+			background:peachpuff;
+			text-align: center;
+			line-height: 40px;
+			font-weight: 600;
+		}
+		.tr2{
+			width: calc(100% - 8px);
+			display: flex;
+		}
+		.tr2>p{
+			flex: 0 0 12.5%;
+			display: block;
+			height: 40px;
+			border-right: 1px solid #333;
+			border-bottom: 1px solid #333;
+			background:cornsilk;
+			text-align: center;
+			line-height: 40px;
+		}
+		.p6{			
+			background:tomato!important;			
+		}
+		.p5{
+			background:greenyellow!important;			
+		}
+		
+	</style>
+	<body>
+		<div class="title">Mobile Erp测试报告</div>
+		<div class="table">
+		<div class="tr1">
+				<p>版本号：&1&</span>
+				<p>用例数：&2&</span>
+				<p>通过数：&3&</span>
+				<p>失败数：&4&</span>
+				<p>失败率：&5&</span>
+				<p>测试机型：&6&</span>
+				<p>测试时间：&7&</span>
+				<p>测试用时：&8&</span>
+		</div>
+		<div class="tr2">
+				<p>用例编号</span>
+				<p>用例模块</span>
+				<p>用例标题</span>
+				<p>异常步骤</span>
+				<p>预计结果</span>
+				<p>实际结果</span>
+				<p>地址类型</span>
+				<p>失败截图</span>
+		</div>
+		&tests&
+		</div>
+	</body>
+</html>

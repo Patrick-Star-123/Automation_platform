@@ -1,0 +1,16 @@
+﻿platformName=
+platformVersion=
+deviceName=
+appPackage=
+appActivity=
+测试机用例配置=b6254d85,12-20、LMQ0220901000815,2-10、638c1c6b,30-47
+用例地址=
+报告存放地址=
+截图存放地址=
+日志存放地址=
+运行脚本方式(appium/airtest)=airtest
+从第几条开始=1
+邮箱服务器地址=smtp.exmail.qq.com
+邮箱登陆用户名=
+邮箱登陆密码=
+邮箱接收地址=
